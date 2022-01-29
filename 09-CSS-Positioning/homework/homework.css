@@ -54,10 +54,22 @@ text-align: center;
 #ejercicioCinco
 {
     display: flex;
-    align-items: space-between;
+    align-items: center;
+    justify-content: space-around;
     
-    justify-content: row-reverse;
 }
 
 
 /* Ejercicio 6. */
+
+#ejercicioCinco
+{
+   flex-direction: row-reverse;
+}
+
+#ejercicioSiete
+{
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-start;
+}
